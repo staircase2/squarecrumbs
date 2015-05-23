@@ -1,2 +1,0 @@
-# squarecrumbs
-Squarecrumbs Landing page
