@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-
+import datetime
 AUTHOR = u'Staircase 2 Productiosn Pte Ltd'
 SITENAME = u'SquareCrumbs - Learning Together, Everywhere'
 SITEURL = 'http://staircase2.github.io/squarecrumbs_landing'
@@ -42,3 +42,4 @@ DEFAULT_PAGINATION = False
 LOAD_CONTENT_CACHE = False
 DISPLAY_CATEGORIES_ON_MENU = False
 PAGE_ORDER_BY = "sortorder"
+YEAR = datetime.date.today().year
