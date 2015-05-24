@@ -42,4 +42,5 @@ DEFAULT_PAGINATION = False
 LOAD_CONTENT_CACHE = False
 DISPLAY_CATEGORIES_ON_MENU = False
 PAGE_ORDER_BY = "sortorder"
+THEME = "themes/startbootstrap-landing-page-custom"
 YEAR = datetime.date.today().year
