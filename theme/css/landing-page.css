@@ -22,7 +22,11 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 16px; 
+}
+
+.topnav img{
+    padding: 5px 0px; 
 }
 
 .lead {
@@ -66,7 +70,19 @@ h6 {
     padding: 5px;
 }
 .navbar-default .navbar-nav > li > a {
+    border-radius: 5px;
     color: white;
+    line-height: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #3f7cac;
+}
+
+.page-header {
+    margin-top: 120px;
 }
 
 @media(max-width:767px) {
@@ -98,6 +114,19 @@ h6 {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
+}
+
+.narrow.container {
+    max-width: 75%;
+}
+
+.body.container {
+    margin-bottom: 25px;
+}
+
+.container p{
+    font-size: 18px;
+    line-height: 35px;
 }
 
 .content-section-a {
@@ -169,7 +198,7 @@ h6 {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 20px 0;
     background-color: #f8f8f8;
 }
 
