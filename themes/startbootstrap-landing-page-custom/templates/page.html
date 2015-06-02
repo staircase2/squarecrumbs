@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block body %}
+{{ super() }}
+    <div class="body narrow container">
+            <h1 class="page-header">{{ page.title }}</h1>
+            {{ page.content }}
+    </div>
+{% endblock %}
+
+{% block nav_width %}
+    <div class="narrow container topnav">
+{% endblock %}
+
+{% block footer_width %}
+    <div class="narrow container">
+{% endblock %}
+    
