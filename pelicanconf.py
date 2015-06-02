@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 import datetime
-AUTHOR = u'Staircase 2 Productiosn Pte Ltd'
+AUTHOR = u'Staircase 2 Productions Pte Ltd'
 SITENAME = u'SquareCrumbs - Learning Together, Everywhere'
 SITEURL = 'http://staircase2.github.io/squarecrumbs_landing'
 RELATIVE_URLS = True
